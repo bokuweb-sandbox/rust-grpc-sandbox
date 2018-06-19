@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package hello;
+
+service HelloCore {
+  rpc Exec(ExecRequest) returns (ExecResponse) {}
+}
+
+message ExecRequest {
+  string command = 1;
+  string args = 2;
+  string input = 3;
+}
+
+message ExecResponse { string result = 1; }

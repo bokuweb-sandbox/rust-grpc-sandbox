@@ -1,0 +1,10 @@
+[package]
+name = "rust-grpc-sandbox_"
+version = "0.1.0"
+authors = ["bokuweb <bokuweb12@gmail.com>"]
+
+[dependencies]
+grpcio = "0.3.0"
+protobuf = "2.0.2"
+futures = "0.2.1"
+
